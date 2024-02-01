@@ -1,1 +1,4 @@
-
+- bybass safetynet
+- auto charger
+- adb, usb debug
+- auto click
