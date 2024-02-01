@@ -48,8 +48,6 @@ if WITH_BUTTONS == "True":
         msg += f"<b>Build Date:</b> {BUILD_DATE}\n\n"
         msg += f"<b>Source Changelogs:</b> <a href='{SOURCE_CHANGELOG_URL}'>Here</a>\n"
         msg += f"<b>Device Changelogs:</b> <a href='https://graph.org/{telegraph_page}'>Here</a>\n\n"
-        #msg += f"<b>Screenshots:</b> <a href='{SCREENSHOT_URL}'>Here</a>\n"
-        msg += f"<b>MD5:</b> <code>{MD5}</code>\n\n"
         if CUSTOM_MESSAGE:
             msg += f"<b>{CUSTOM_MESSAGE}</b>\n\n"
         else:
@@ -92,11 +90,7 @@ else:
         msg += f"<b>Build Date:</b> {BUILD_DATE}\n\n"
         msg += f"<b>Source Changelogs:</b> <a href='{SOURCE_CHANGELOG_URL}'>Here</a>\n"
         msg += f"<b>Device Changelogs:</b> <a href='https://telegra.ph/{telegraph_page}'>Here</a>\n\n"
-        msg += f"<b>XDA Thread:</b> <a href='{XDA_POST}'>Here</a>\n"
         msg += f"<b>Download:</b> <a href='{DOWNLOAD_URL}'>Here</a>\n"
-        msg += f"<b>Screenshots:</b> <a href='{SCREENSHOT_URL}'>Here</a>\n"
-        msg += f"<b>MD5:</b> <code>{MD5}</code>\n\n"
-        msg += f"<b>Support Group:</b> @{SUPPORT_GROUP}\n\n"
         if CUSTOM_MESSAGE:
             msg += f"<b>{CUSTOM_MESSAGE}</b>"
             msg += f"{HASHTAGS}"
