@@ -22,6 +22,7 @@ try:
     BUILD_DATE = getConfig("BUILD_DATE")
     BUILD_TYPE = getConfig("BUILD_TYPE")
     DOWNLOAD_URL = getConfig("DOWNLOAD_URL")
+    HASHTAGS = getConfig("HASHTAGS")
 except KeyError:
     print("Fill all the configs plox..\nExiting...")
     exit(0)
