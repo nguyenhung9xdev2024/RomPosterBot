@@ -1,1 +1,9 @@
-
+2024-04-12
+- Fix camcoder crash, 8kmode working
+- Improved greater sound
+- Import driver mi thermal for kernel , FPC1555
+- Update sf duration to 15.6 ms
+- Build erofs odm and vendor images
+- Change DENSITY screen
+- Import missing some blob perf
+- Add support Sustained Performance Mode
