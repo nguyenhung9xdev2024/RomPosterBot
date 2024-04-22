@@ -1,9 +1,15 @@
-2024-04-12
-- Fix camcoder crash, 8kmode working
-- Improved greater sound
-- Import driver mi thermal for kernel , FPC1555
-- Update sf duration to 15.6 ms
-- Build erofs odm and vendor images
-- Change DENSITY screen
-- Import missing some blob perf
-- Add support Sustained Performance Mode
+2024-04-22
+- sepolicy: Mark recovery as permissive (to flash magisk and stuff)
+- Show "Turbo charging" instead of "Charging rapidly"
+- Set 60Hz max refresh rate on AOD
+- Set preferred refresh rate on keyguard to 60
+- Enable doze proximity sensor usage in doze
+- Set max active modem count
+- Fixes some scroll lags and system ui
+- Set power button position for AOD fade
+- Drop dolby (Los support not good)
+- Enable mgame mi_thermald mode
+- Set 0-3 as background cpus
+- Tune charging control parameters and hotter ambient temps
+- Fix charger times on lock screen
+- Fix twrp broken after flash rom !
