@@ -1,6 +1,2 @@
-2024-04-25
-- Fix some bank app
-- Fix camera miui save picture bigger than 1.6MB
-- Allow all filesystems for USB-OTG
-- Improve GNSS
-- Fix battery drain
+2024-04-27
+- Fixed battery drain
