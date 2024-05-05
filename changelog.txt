@@ -1,2 +1,4 @@
-2024-04-27
-- Fixed battery drain
+2024-05-05
+- Add zram and zram writeback
+- Add more blob wifi display
+- Improve camera miui
